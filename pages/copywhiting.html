@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icon/jsIcon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <title>Método .copyWhiting()</title>
+</head>
+<body data-bs-theme="dark">
+    <main>
+      <h2 class="text-center my-5">Método JavaScript .copyWhiting()</h2>
+        <section id="copyWhiting" class="mt-3 d-flex justify-content-center gap-5">
+            <div id="l1" class="card text-center" style="width: 18rem;">
+                <div class="card-header">
+                  Mudando a posição de uma lista de números
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li id="firstL" class="list-group-item"></li>
+                  <li id="secondL" class="list-group-item"></li>
+                  <li id="resultL" class="list-group-item"></li>
+                  <button type="button" class="btn btn-primary" onclick="modLista()">Aplicar Método</button>
+                  <button type="button" class="btn btn-danger mt-1" onclick="modLista2()">Voltar ao padrão</button>
+                </ul>
+              </div>
+              <div class="card text-center" style="width: 18rem;">
+                <div class="card-header">
+                  Mudando a posição de uma lista de números
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li id="firstLis" class="list-group-item"></li>
+                  <li id="secondLis" class="list-group-item"></li>
+                  <li id="resultLis" class="list-group-item"></li>
+                  <button type="button" class="btn btn-primary" onclick="modifLista()">Aplicar Método</button>
+                  <button type="button" class="btn btn-danger mt-1" onclick="modifLista2()">Voltar ao padrão</button>
+                </ul>
+              </div>
+              <div id="l3" class="card text-center" style="width: 18rem;">
+                <div class="card-header">
+                  Mudando a posição de uma lista de números (sem passar o 3° índice)
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li id="firstList" class="list-group-item"></li>
+                  <li id="secondList" class="list-group-item"></li>
+                  <li id="resultList" class="list-group-item"></li>
+                  <button type="button" class="btn btn-primary" onclick="modList()">Aplicar Método</button>
+                  <button type="button" class="btn btn-danger mt-1" onclick="modList2()">Voltar ao padrão</button>
+                </ul>
+              </div>
+        </section>
+        <div class="d-flex justify-content-center w-100">
+            <a href="../index.html" class="btn btn-light my-4">Página principal</a>
+          </div>
+    </main>
+    <footer>
+        <script src="../js/ArrayCopyWithing.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icon/jsIcon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <title>Método .concat()</title>
+</head>
+<body data-bs-theme="dark">
+    <main>
+        <h2 class="text-center my-5">Método JavaScript .concat()</h2>
+          <section id="concat" class="mt-3 d-flex justify-content-center gap-5">
+              <div id="cardMeses" class="card text-center" style="width: 18rem;">
+                  <div class="card-header">
+                    Concatenando Meses
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li id="firstMon" class="list-group-item"></li>
+                    <li id="secondMon" class="list-group-item"></li>
+                    <li id="fullYear" class="list-group-item"></li>
+                    <button type="button" class="btn btn-primary" onclick="concatenarAno()">Concatenar</button>
+                  </ul>
+                </div>
+                <div id="cardMaterias" class="card text-center" style="width: 18rem;">
+                  <div class="card-header">
+                    Concatenando Matérias do Curso de ADS
+                  </div>
+                  <ul class="list-group list-group-flush">
+                    <li id="primSem" class="list-group-item"></li>
+                    <li id="segSem" class="list-group-item"></li>
+                    <li id="terSem" class="list-group-item"></li>
+                    <li id="quarSem" class="list-group-item"></li>
+                    <li id="cursoCompleto" class="list-group-item"></li>
+                      <button type="button" class="btn btn-primary" onclick="concatenarMaterias()">Concatenar</button>
+                  </ul>
+                </div>
+          </section>
+          <div class="d-flex justify-content-center w-100">
+            <a href="../index.html" class="btn btn-light my-4">Página principal</a>
+          </div>
+    </main>
+    <footer>
+        <script src="../js/ArrayConcat.js"></script>
+        <script src="../js/bootstrap.min.js"></script>
+    </footer>
+</body>
+</html>
